@@ -1,0 +1,11 @@
+Metric,DLS,simIK,Interpretation
+Number of targets,20.0,20.0,20 identical Cartesian targets
+Success rate (%),100.0,100.0,Success = final error <= 5 mm in the respective experiment
+Mean final error (mm),4.201414938803676,0.2304292079770455,Lower is better
+Minimum final error (mm),2.938510621387611,0.1148482482199984,Lower is better
+Maximum final error (mm),4.938237610852619,0.3521803258878023,Lower is better
+Mean measured time (s),13.350497198104858,0.05023478269577022,Experiment-level elapsed time; not a pure algorithm-runtime comparison
+Maximum measured time (s),19.52479362487793,0.1396863460540771,Experiment-level elapsed time
+Mean DLS iterations,8.95,,simIK external convergence steps are not equivalent to DLS iterations
+Mean simIK convergence steps,,1.0,Python-observed simulation steps to <=5 mm
+Total measured time (s),267.00994396209717,1.0046956539154044,Sum of per-target measured times
